@@ -1,13 +1,16 @@
 Update
 ======
 
+Website
+--------
+
+https://jbae.eng.ucsd.edu/people
+
+_________________________
+
 Website: use git (efodorphysics.github.io)
 
-git add --all
-
-git commit -m "Initial commit"
-
-git push -u origin master
+git add --all && git commit -m "Initial commit" && git push -u origin master
 
 
 Error message
