@@ -4,6 +4,13 @@ Update
 Website
 --------
 
+Research; People; Publications
+- ActiveStatPhys @ Uni.lu
+- short CV
+- description of group members
+
+------
+
 https://jbae.eng.ucsd.edu/
 http://vaikuntanathan-group.uchicago.edu/
 http://fcmack.web.rice.edu/
@@ -31,40 +38,3 @@ Error message
 -/ 'Les mises à jour ont été rejetées car la branche distante contient du travail '
    do 'git push -f origin master'
 
-________________________
-
-Old text
-========
-
- 
-    <p style="text-align:justify;"> Collaborators |
-        <a href="http://wylieahmed.com/" target="_blank"> Wylie W. Ahmed</a>,
-        <a href="https://www.uni-muenster.de/Cells-in-Motion/people/all/betz-t.php" target="_blank"> Timo Betz</a>,
-        <a href="http://www.weizmann.ac.il/chemphys/gov/nir-govs-lab" target="_blank"> Nir S. Gov</a>,
-        <a href="http://meche.mit.edu/people/faculty/guom@mit.edu" target="_blank"> Ming Guo</a>,
-        <a href="http://www2.yukawa.kyoto-u.ac.jp/~hisao.hayakawa/hisao-e.html" target="_blank"> Hisao Hayakawa</a>,
-        <a href="http://www.igbmc.fr/riveline/" target="_blank"> Daniel Riveline</a>,
-        <a href="http://www.msc.univ-paris-diderot.fr/~pvisco/" target="_blank"> Paolo Visco</a>,
-        <a href="https://sites.google.com/site/fvanwijland/home" target="_blank"> Frédéric van Wijland</a>
-        </p>
-
-        <p style="text-align:justify;"> Collaborators |
-        <a href="http://www.damtp.cam.ac.uk/people/mec22/" target="_blank"> Michael E. Cates</a>,
-        <a href="https://www.pct.espci.fr/~vdemery/en/index.html" target="_blank"> Vincent Démery</a>,
-        <a href="https://www.alpha-lee.com/" target="_blank"> Alpha A. Lee</a>,
-        <a href="https://sites.google.com/site/cesarenardiniresearch/" target="_blank"> Cesare Nardini</a>,
-        <a href="http://www.msc.univ-paris-diderot.fr/~jtailleu/" target="_blank"> Julien Tailleur</a>,
-        <a href="http://www.damtp.cam.ac.uk/people/et405/" target="_blank"> Elsen Tjhung</a>,
-        <a href="http://vaikuntanathan-group.uchicago.edu/" target="_blank"> Suri Vaikuntanathan</a>
-        </p>
-
-
-				<div class="row feature">
-					<div class="col-md-4">
-					<h1 style="margin-left:80px"><img src="./images/Vertex.png" class="img-responsive" alt="Picture" width="250"/></h1>
-					</div>
-					<div class="col-md-7">
-					<h1 style="margin-top:20px"></h1>
-					<p style="text-align:justify;">Furthermore, we investigate the fluctuations in epithelial tissues by tracking tricellular junctions. These are involved in the exchanges between neighbouring cells, thus serving as hallmark of the tissue dynamics. Specifically, we highlight the non-Gaussian statistics of the junction displacement as a result of directed motion events. Describing the dynamics as an effective caging, we demonstrate that our prediction is consistent with the full statistics of the junctions. It allows us to reveal a systematic decrease of diffusion coefficient, persistence time and persistence length as motor activity is gradually inhibited.</p>
-					</div>
-				</div>
