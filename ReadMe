@@ -23,7 +23,7 @@ _________________________
 Website: use git (efodorphysics.github.io)
 
 pull data   : git pull
-push data   : git add ./Folder/file & git commit -m "Push data" & git push
+push data   : git add publications.hmtl & git commit -m "Push data" & git push
 							git add --all && git commit -m "Update" && git push -u origin master
 clone folder: git clone https://github.com/efodorphysics/Folder.git
 
