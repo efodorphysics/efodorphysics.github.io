@@ -1,0 +1,62 @@
+/* @override 
+	http://dev.lucet.lu/cfReports/inc/jsProgressChart/jsProgressChart.css */
+
+div.progressChart {
+	display: grid;
+	grid-template-columns: fit-content(70%) 1fr 3em;
+	border: 1px solid #333;
+	padding: 5px;
+	column-gap: 10px;
+	font-size: 14px;
+	margin-bottom: 70px;
+}
+
+div.pcRowLabel {
+	grid-column: 1;
+	text-align: right;
+	line-height: 1em;
+	vertical-align: top;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+div.pcProgressFrame {
+	grid-column: 2;
+	overflow-x: visible;
+	white-space: nowrap;
+	padding: 3px 0;
+}
+
+div.pcProgressBar {
+	display: inline-block;
+	height: 1em;
+	background-color: #39aeff;
+	min-width: 1px;
+	line-height: 1em;
+}
+
+div.pcPercentageLabel {
+	display: inline-block;
+	margin-left: 10px;
+	line-height: 1em;
+	vertical-align: top;
+}
+
+@media screen and (max-width: 599px) {
+	div.pcRowLabel > span.longLabel {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	div.pcRowLabel > span.shortLabel {
+		display: none;
+	}
+}
+
+@media print {
+	div.pcRowLabel > span.shortLabel {
+		display: none;
+	}
+}

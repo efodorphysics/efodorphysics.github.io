@@ -1,0 +1,259 @@
+/* @override 
+	http://dev.lucet.lu/cfReports/inc/css/report.css */
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444;
+	background-color: #333333;
+	margin: 0;
+	--max-width: 1000px;
+}
+
+a.downloadLink {
+	background-color: #00B8E4;
+	color: white;
+	padding: 0 10px 1px 10px;
+	border-radius: 10px;
+	text-decoration: none;
+	margin: 0 1px;
+}
+
+hr {
+	border: none;
+	border-top: 1px solid #444;
+	margin: 30px 0;
+}
+
+hr.dashed {
+	border-top: 1px dashed #444;
+}
+
+#main {
+    max-width: var(--max-width);
+    margin: auto;
+	background-color: white;
+	padding: 10px  50px;
+	box-sizing: border-box;
+}
+
+#header {
+	max-width: var(--max-width);
+	position: relative;
+	width: inherit;
+	background-color: #00B8E4;
+	height: 70px;
+	overflow: visible;
+	margin: auto;
+}
+
+#logo {
+	background: white;
+	background-size: 60px 51px;
+	height: 60px;
+	width: 86px;
+	position: absolute;
+	bottom: -1px;
+	left: 35px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+#logo > img {
+	width: 60px;
+	margin: 7px 13px;
+}
+
+#title {
+	color: #FFF;
+	font-weight: bold;
+	font-size: 22px;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 20px;
+}
+
+#subtitle {
+	color: #FFF;
+	font-weight: bold;
+	font-size: 20px;
+	margin-right: 20px;
+	text-align: right;
+	width: calc(100% - 190px);
+	position: absolute;
+	right: 0;
+	bottom: 5px;
+}
+
+@media screen and (max-width: 720px) {
+	#title {
+		display: none;
+	}
+}
+
+#copyright {
+	background-color: #000000;
+	padding: 10px;
+	font-size: 12px;
+	color: #CCC;
+	position: relative;
+	max-width: var(--max-width);
+	margin: auto;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+#copyright > a {
+	color: inherit;
+}
+
+@media print {
+	body {
+		background-color: white;
+	}
+	
+	#main {
+		margin: 0;
+		max-width: 100%;
+	}
+
+	#copyright {
+		background-color: white;
+		border-top: 1px solid black;
+		color: black;
+		max-width: var(--max-width);
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	.screenOnly {
+		display: none;
+	}
+}
+
+@media (max-width: 600px) {
+	#main {
+		padding: 10px 30px;
+	}
+}
+
+@media (max-width: 400px) {
+	#main {
+		padding: 10px;
+	}
+}
+
+.tiny {
+    font-size: 0.8em;
+}
+
+h2 + .tiny {
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.unselectable {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+table.info td {
+	vertical-align: top;
+}
+
+table.info tr > td:first-child {
+	padding-right: 20px;
+}
+
+
+div.commentsQuestion {
+	font-weight: bold;
+	display: inline;
+	font-size: 1.2em;
+}
+
+div.comment {
+	margin: 20px 0;
+	padding: 10px;
+	background-color: #e8f8ff;
+	page-break-inside: avoid;
+	border-left: 2px solid #44b6ff;
+}
+
+div.mc_text_comment {
+	margin: 5px 0 20px 0;
+	padding: 10px;
+	background-color: #e8f8ff;
+	page-break-inside: avoid;
+	border-left: 2px solid #44b6ff;
+}
+
+div.mc_text_choice {
+	margin-top: 20px;
+}
+
+div.mc_text_colourIndicator {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	margin: 0 10px -2px 0;
+	border-radius: 0.5em;
+}
+
+div.blockToggle {
+	color: white;
+	font-size: 1.2em;
+	border-radius: 20px;
+	padding: 0 20px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	cursor: pointer;
+	background-color: #69c2fe;
+	font-weight: bold;
+}
+
+div.blockToggle.courseLevel {
+	margin: auto;
+}
+
+div.blockToggle.commentLevel {
+	display: inline-block;
+	margin-right: 15px;
+	margin-top: 30px;
+}
+
+div.blockToggle.collapsed + div.commentsQuestion + div.commentsGroup, div.blockToggle.collapsed + div.courseBlock {
+	display: none;
+}
+
+div.blockToggle.courseLevel.collapsed::before {
+	content: 'see details ...';
+}
+
+div.blockToggle.courseLevel.expanded::before {
+	content: 'hide details';
+}
+
+div.blockToggle.commentLevel.collapsed::before {
+	content: '+';
+}
+
+div.blockToggle.commentLevel.expanded::before {
+	content: '–';
+}
+
+span.survey_type {
+	background: #0e9b00;
+	color: white;
+	padding: 2px 0;
+	border-radius: 20px;
+	display: inline-block;
+	width: 30px;
+	text-align: center;
+}

@@ -1,0 +1,78 @@
+.nxDialogVeil {
+	background-color: rgba(255, 255, 255, 0.5);
+	position: fixed;
+	left: 0;
+	right: 0;
+	top:  0;
+	bottom: 0;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	z-index: 100;
+}
+
+.nxDialog {
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.45);
+	position: absolute;
+	background: #ebebeb;
+	border: 1px solid #888;
+}
+
+.nxDialogTitle:not(:empty) {
+	padding: 0.3em 0.4em 0.5em 0.4em;
+}
+
+.nxDialogTitle {
+    word-wrap: break-word;
+	position: relative;
+	color: white;
+	background-color: #373737;
+	cursor: move;
+	margin: 5px;
+}
+
+.nxDialogBody {
+	padding: 10px 20px 10px 20px;
+    word-wrap: break-word;
+	max-height: 80vh;
+	overflow: auto;
+}
+
+.nxDialogButtons {
+	position: relative;
+	text-align: right;
+	padding: 10px;
+    clear: both;
+}
+
+.nxDialogBody > *:first-child {
+	margin-top: 0;
+}
+
+.nxDialogBody > *:last-child {
+	margin-bottom: 0;
+}
+
+.nxDialogBody input[type=text], .nxDialogBody input[type=password], .nxDialogBody textarea {
+	outline: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: 1px solid #ccc;
+	background-color: white;
+	font-size: inherit;
+	padding: 3px;
+	color: #444;
+}
+
+.nxDialogBody input:focus, .nxDialogBody textarea:focus {
+	border: 1px solid #ccc;
+	background-color: #ffffff;
+	color: #444;
+}
+
+.nxDialogIcon {
+    float: left;
+    margin-right: 15px;
+}

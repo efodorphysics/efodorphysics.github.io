@@ -1,0 +1,94 @@
+/* @override 
+	http://dev.lucet.lu/cfReports/inc/jsStackedBarChart/jsStackedBarChart.css */
+
+div.stackedBarChartWrapper {
+	page-break-inside: avoid;
+}
+
+div.stackedBarChart {
+	max-width: 500px;
+	margin: 0 auto 20px auto;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+div.sbcTitle {
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+div.sbcParticipation {
+	font-size: 0.8em;
+	color: #666;
+	text-align: right;
+}
+
+div.sbcInvisibleFrame {
+    height: 25px;
+}
+
+div.sbcInvisibleFrame > div, div.sbcBoxes > div {
+    height: 100%;
+    display: inline-block;
+}
+
+div.sbcComparisonLabel {
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+div.sbcInvisibleFrame + div.sbcComparisonLabel {
+	margin-top: 5px;
+}
+
+div.sbcBoxes {
+    width: 100%;
+}
+
+div.sbcBox {
+	position: relative;
+}
+
+span.sbcVoteCount {
+	color: white;
+	font-size: 0.8em;
+	position: absolute;
+	font-weight: bold;
+	line-height: 25px;
+	left: 50%;
+}
+
+table.sbcLegend {
+	width: 100%;
+	max-width: 500px;
+	margin: 30px auto auto;
+}
+
+div.sbcLegendSwatch {
+	width: 100%;
+	height: 1em;
+	position: relative;
+	top: 2px;
+	display: inline-block;
+}
+
+td.sbcLegendSwatchCell {
+	text-align: center;
+}
+
+td[class^="sbcLegendLabel"] {
+	font-size: 0.8em;
+}
+
+td.sbcLegendLabelLeft {
+	text-align: left;
+}
+
+td.sbcLegendLabelCenter {
+	text-align: center;
+}
+
+td.sbcLegendLabelRight {
+	text-align: right;
+}
