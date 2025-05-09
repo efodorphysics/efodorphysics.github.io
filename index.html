@@ -12,6 +12,84 @@
 		<!-- CSS -->
 		<link type="text/css"  href="dist/css/bootstrap.min.css" rel="stylesheet">    
 		<style type="text/css">body{padding-top: 100px;}</style>
+		
+		<style>
+		#nav-wrap a {
+			height:44px; /* Override stylesheet because bootstrap */
+		}
+		h1,h2 {
+			font-weight:  1000;
+		}
+		.carousel-inner { 
+			height : 414px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+		}
+		.carousel-item img {
+			max-height: 100%;
+			max-width: 100%;
+			object-fit: contain;
+			padding: 0 15%;
+		}
+
+		.carousel-caption{
+			opacity: 0;
+			transition:  500ms ease-in-out;
+			transform:  translateY(-50%);
+			top:  50%;
+			bottom:  40%;
+			background-color: rgba(0, 0, 0, 0.5);
+			color: #fff;
+			display: block;
+			padding:  10px;
+		}
+		.carousel-item:hover .carousel-caption{
+			opacity: 1;
+		}
+
+		.carousel-control-prev, .carousel-control-next {
+			height:  50px;
+			width:  50px;
+			background:  #1b1b1b;
+			opacity:  0.5;
+			border:  0 none;
+			border-radius:  50%;
+			color:  #fff;
+			line-height:  70px;
+			top:  50%;
+			position:  absolute;
+		}
+		.carousel-control-prev {
+			left:  0;
+			margin-left:  5%;
+		}
+		.carousel-control-next {
+			right:  0;
+			margin-right:  5%;
+		}
+
+		.carousel-indicators {
+			display:  flex;
+			justify-content:  center;
+			position:  absolute;
+			bottom:  0;
+			width:  fit-content;
+			margin:  0 auto;
+			margin-bottom: -20px;
+			background:  #1b1b1b;
+			opacity:  0.5;
+		}
+		.carousel-indicators li {
+			width:  10px;
+			height:  10px;
+			margin:  3px;
+			margin-top:  3px;
+			margin-bottom:  3px;
+			border-radius:  50%;
+		}
+	</style>
 	</head>
 
 	<body>
@@ -40,7 +118,6 @@
 
 		<!-- Page content -->
 		<div class="container">
-			<div class="row">
 			<div class="col-md-6">
 			<p align="right">
 				<img src="./images/MIPS.jpg" class="img-responsive" alt="Picture" width="260"/>
@@ -64,7 +141,11 @@
 			</div>
 		</div>
 
+		<!-- Page content -->
+		<section class="container">
+		
 		<hr>
+		
 		<b><font size="4"><p align="center">Selected recent publications</p></font></b><br>
 		
 					<a href="http://arxiv.org/abs/2504.19285" target="_blank"><b>Control of active field theories at minimal dissipation</b></a>
@@ -91,6 +172,8 @@
 					<br> É. Fodor, R. L. Jack, and M. E. Cates
 					<br> <a href="https://doi.org/10.1146/annurev-conmatphys-
 031720-032419" target="_blank">Annu. Rev. Condens. Matter Phys. <b>13</b>, 215 (2022)</a>
+
+			</section>
 		
 		<br><br><br>
 		<!-- javascript -->
