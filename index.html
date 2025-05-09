@@ -119,53 +119,57 @@
 
 <!-- Slideshow container -->
 <div class="container">
-				<div id="carouselResearch" class="carousel slide" data-interval="false">
-				
-					<div class="carousel-inner">
-							<div class="item active">
-								<img src="./images/group.jpg" width="650">
-								<div class="carousel-caption"><h4>Group in 2023</h4>
-								</div>
-							</div>
-							
-							<div class="item">
-								<img src="./images/PAM.jpg" width="800">
-								<div class="carousel-caption"><h4>Deformation waves in pulsating active matter</h4>
-								</div>
-							</div>
-							
-							<div class="item">
-								<img src="./images/Hydro.jpg"  width="900">
-								<div class="carousel-caption"><h4>Hydrodynamics of motile defects</h4>
-								</div>
-							</div>
-							
+
+	<div id="carouselResearch" class="carousel slide" data-interval="false">
+		<ol class="carousel-indicators">
+			<li data-target="#carouselResearch" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselResearch" data-slide-to="1"></li>
+			<li data-target="#carouselResearch" data-slide-to="2"></li>
+		</ol>
+		
+		<div class="carousel-inner">
+				<div class="item active">
+					<img src="./images/group.jpg" width="650">
+					<div class="carousel-caption"><h4>Group in 2023</h4>
 					</div>
-					<a class="carousel-control-prev" href="#carouselResearch" role="button" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Previous</span>
-					</a>
-					<a class="carousel-control-next" href="#carouselResearch" role="button" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Next</span>
-					</a>
-				</div><br>
-
-<p><h5>Active matter encompasses a large variety of systems where individual components, either living or synthetic, consume energy to sustain their dynamics far from equilibrium. The combination of individual activity and interactions between individuals leads to collective effects without any equilibrium equivalent.<br><br>
-
-
-Combining methods of <b>statistical mechanics, hydrodynamics, and control theory</b>, we propose a versatile roadmap to systematically predict and control the emergence of such <b>nonequilibrium complex behaviors</b>. Specifically, we formulate and examine some minimal, yet non-trivial models to rationalize how to stabilize and exploit dynamical patterns in various living and synthetic systems.
-</h5></p>
-
-</div>
-
-
-		<!-- Page content -->
-		<section class="container">
+				</div>
+				
+				<div class="item">
+					<img src="./images/PAM.jpg" width="800">
+					<div class="carousel-caption"><h4>Deformation waves of pulsating particles</h4>
+					</div>
+				</div>
+				
+				<div class="item">
+					<img src="./images/Hydro.jpg"  width="900">
+					<div class="carousel-caption"><h4>Hydrodynamics of motile defects</h4>
+					</div>
+				</div>
+		</div>
 		
-		<hr>
+		<a class="carousel-control-prev" href="#carouselResearch" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselResearch" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+</div><br><br>
+
+
+	<!-- Page content -->
+	<div class="container">
+		<p><font size="3">Active matter encompasses a large variety of systems, living or synthetic, where interacting components consume energy to sustain their dynamics far from equilibrium. Such systems exhibit collective effects without any equilibrium equivalent, some of which play an important role in the biological functions of living matter.<br><br>
+
+
+		Combining methods of <b>statistical mechanics, hydrodynamics, and control theory</b>, we propose a versatile roadmap to predict and control the emergence of <b>nonequilibrium complex behaviors</b>. Specifically, we formulate and examine some minimal, yet non-trivial theoretical models which help rationalize how to regulate the dynamical patterns observed in active systems.
+		</font></p>
 		
-		<b><font size="4"><p align="center">Selected recent publications</p></font></b><br>
+			<hr>
+			<font size="3">
+			<b><p align="center"><font size="4">Selected recent publications</font></p></b><br>
 		
 					<a href="http://arxiv.org/abs/2504.19285" target="_blank"><b>Control of active field theories at minimal dissipation</b></a>
 					<br>A. Soriani, E. Tjhung, É. Fodor, and T. Markovich
@@ -191,9 +195,10 @@ Combining methods of <b>statistical mechanics, hydrodynamics, and control theory
 					<br> É. Fodor, R. L. Jack, and M. E. Cates
 					<br> <a href="https://doi.org/10.1146/annurev-conmatphys-031720-032419" target="_blank">Annu. Rev. Condens. Matter Phys. <b>13</b>, 215 (2022)</a>
 
-			</section>
+			</font>
+			</div>
 		
-		<br><br><br>
+		<br><br>
 		<!-- javascript -->
 		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 		<script src="dist/js/bootstrap.min.js"></script>
